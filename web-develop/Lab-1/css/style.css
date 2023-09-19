@@ -17,6 +17,20 @@ h1 , h2, h3, h4, h5, h6{
 body {
     background-color: #C1FFBA;
     background-image: url(../img/2471316.gif);
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+a:hover{
+    color:#54f6a1;
+}
+
+.divide{
+    display: block;
+    height: 5px;
+    width: 100px;
+    background-color: #54f6a1;
+    margin-bottom: 15px;
 }
 
 .container{
@@ -45,6 +59,12 @@ body {
     margin-right: 50px;
 }    
 
+.certificate .profile{
+    margin-bottom: 10px;
+}
+.certificate .divide{
+    width: 420px;
+}
 .main_title{
     text-align: center;
     margin-top: 20px;
@@ -80,14 +100,19 @@ body {
 .contacts_title{
     text-align: center;
 }
+.contacts .divide{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
 
 .contacts_icons{
  display: inline-block;
 }
 .contacts_wrapper{
-   margin-left: 60px;
+   /* margin-left: 60px; */
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
@@ -102,4 +127,80 @@ body {
     flex-direction: row;
     align-items:center;
     justify-self: center;
+}
+
+.skills{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.skills_title{
+    text-align: center;
+}
+
+.skills .divide{
+  width: 180px; 
+  margin-top: 10px;
+}
+.skills_wrapper{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.education{
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.education .divide{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.education_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.education_item{
+    margin-top: 20px;
+}
+
+.education_item .years {
+    font-size: 20px;
+    font-weight: bold;
+    color: #C1FFBA;
+}
+.education_title{
+    text-align: center;
+}
+
+.education_item .institution {
+    text-decoration-line: none;
+    font-size: 18px;
+    hover
+}
+
+.specialization {
+    font-size: 12px;
+}
+
+.experience .divide {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.experience_title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
