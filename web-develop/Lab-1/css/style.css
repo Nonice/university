@@ -35,13 +35,17 @@ a:hover{
 
 .container{
     padding: 50px;
+    margin: 0 auto;
+    
+}
+
+.resume{
     width: 800px;
     min-height: 800px;
     background-color: #808080;
     opacity: 80%;
-    margin: 0 auto;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: first baseline;
