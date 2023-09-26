@@ -11,8 +11,17 @@
       content="CV-info"
     />
     <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
-      href="./css/fonts.css"
     />
     <link
       rel="stylesheet"
@@ -36,7 +45,7 @@
         </div>
         <div class="certificate">
           <h2 class="profile">Довідка</h2>
-          <div class="divide"></div>
+          <div class="divider"></div>
           <p class="about">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
             numquam explicabo tempora minus eaque sed deserunt quis, sunt nulla
@@ -53,7 +62,7 @@
         </div>
         <div class="contacts">
           <h2 class="contacts_title">Контакти</h2>
-          <div class="divide"></div>
+          <div class="divider"></div>
           <div class="contacts_wrapper">
             <div class="contact_item">
               <a href="b"
@@ -104,7 +113,7 @@
         </div>
         <div class="skills">
           <h2 class="skills_title">Навички</h2>
-          <div class="divide"></div>
+          <div class="divider"></div>
           <div class="skills_wrapper">
             <ul>
               <li>Bla</li>
@@ -119,8 +128,8 @@
         </div>
         <div class="education">
           <h2 class="education_title">Освіта</h2>
-          <div class="divide"></div>
-          <div class="education_wrrapper">
+          <div class="divider"></div>
+          <div class="education_wrapper">
             <div class="education_item">
               <p class="years">2010-2019</p>
               <a
@@ -153,7 +162,7 @@
         </div>
         <div class="experience">
           <h2 class="experience_title">Робочий досвід</h2>
-          <div class="divide"></div>
+          <div class="divider"></div>
           Робочий досвід
           <div class="experience_block">
             <p class="experience_text">
@@ -187,7 +196,53 @@
           </div>
         </div>
       </div>
-      <div class="coment"></div>
+    </div>
+    <div class="container">
+      <div class="comment">
+        <h2 class="comment_title">Залишити Комментар</h2>
+        <div class="divider"></div>
+        <div class="comment_wrapper">
+          <div class="user_info">
+            <input
+              type="text"
+              class="autor"
+              placeholder="Ім'я"
+            />
+            <input
+              type="text"
+              class="email"
+              placeholder="Пошта"
+            />
+            <input
+              type="text"
+              class="telephon"
+              placeholder="Телефон"
+            />
+          </div>
+          <textarea
+            name="feedback"
+            id=""
+            cols="30"
+            rows="10"
+            class="feedback"
+            placeholder="Комментар..."
+          ></textarea>
+        </div>
+        <div class="btn_wrapper">
+          <button class="share_btn btn">Відправити</button>
+        </div>
+        <!-- <form
+            action="table.html"
+            class="form"
+          >
+            <button class="tabel_btn btn">tabel</button>
+          </form> -->
+        <a
+          href="table.html"
+          class="table"
+          >Перейти до таблиці...</a
+        >
+      </div>
     </div>
   </body>
 </html>
