@@ -1,0 +1,145 @@
+:root {
+  --font-color: #1d1d1f;
+  --header-bg-color: rgba(251, 251, 253, 0.8);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'SFpro', 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue',
+    'Helvetica', 'Arial', sans-serif;
+  color: var(--font-color);
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.head_bar {
+  background-color: var(--header-bg-color);
+  height: 44px;
+  width: 100%;
+  position: fixed;
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.flex_header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.link_head {
+  text-decoration: none;
+}
+
+.main_screen {
+  background-image: url('../img/bg.jpg');
+  background-size: 1600px 620px;
+  background-repeat: no-repeat;
+  height: 619px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main_title {
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 400px;
+}
+
+.sub_title {
+  color: #78716cef;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 100px;
+}
+
+.test1 {
+  background-color: rgba(251, 251, 253, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+  clip-path: url(#myClip);
+  width: 500px;
+  height: 500px;
+}
+
+.element {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(251, 251, 253, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+
+  /* background-image: url("../icons8-apple.svg"); */
+  clip-path: url(#svgPath);
+  /* mask: url(#svgPath); */
+  /* clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%); */
+  /* mask: url(../icons8-apple.svg); */
+}
+
+.summary_title {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 68px;
+}
+
+.software_text,
+.summary_text,
+.history_text {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 640px;
+}
+
+.software_title,
+.history_title {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 48px;
+}
+
+.software_wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 16px;
+  width: 600px;
+}
+
+.item_title {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.item_text {
+  text-align: center;
+}
+
+.flex_footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer_bar {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
